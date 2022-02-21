@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Quốc Việt</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="wrapper">
+      <img src="tumble.png" alt="">
+      </a>
+      <div class="title">
+        Nguyễn Tô Quốc Việt
+      </div>
+
+      <div class="place">
+        Long An, Vietnam
+      </div>
+    </div>
+    <div class="content">
+      <p>
+        Nickname: <br>Tumblenguyen
+      </p>
+      <div class="buttons">
+        <div class="btn">
+          <button onclick="location.href='https://www.facebook.com/tumblenguyen'" type="button">
+            <strong>Message</strong></button>
+        </div>
+
+        <div class="btn">
+          <button onclick="location.href='https://www.facebook.com/tumblenguyen'" type="button">
+            <strong>Following</strong></button>
+        </div>
+      </div>
+    </div>
+    <div class="icons">
+      <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+      <li><a href="https://www.youtube.com/channel/UCxkm9lstzHGskhtoT0PflCw"><span class="fab fa-youtube"></span></a>
+      </li>
+    </div>
+  </div>
+  <script>
+    const img = document.querySelector("img");
+    const icons = document.querySelector(".icons");
+    img.onclick = function () {
+      this.classList.toggle("active");
+      icons.classList.toggle("active");
+    }
+  </script>
+</body>
+
+</html>
